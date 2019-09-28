@@ -1,24 +1,39 @@
-# README
+Toy App
+=========
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is simple Ruby app using the Rails framework.
 
-Things you may want to cover:
+## Running Locally
+------------------
 
-* Ruby version
+Make sure you have [Ruby](https://www.ruby-lang.org), [Bundler](bundler.io) and the [Heroku Toolbelt](https://toolbelt.heroku.com) installed.
 
-* System dependencies
+```sh
+git clone https://github.com/SG24/toy_app.git # or clone your own fork
+cd toy_app
+bundle install --without production # uses sqlite3 in development, but needs postgresql while deploying on heroku
+rails server
+```
 
-* Configuration
+Your app should now be running on [localhost:3000](http://localhost:3000/).
 
-* Database creation
+## Deploying to Heroku
 
-* Database initialization
+```sh
+heroku create
+git push heroku master
+heroku run rake db:migrate
+heroku open
+```
 
-* How to run the test suite
+Alternatively, you can deploy your own copy of the app using the web-based flow:
 
-* Services (job queues, cache servers, search engines, etc.)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-* Deployment instructions
+## Documentation
 
-* ...
+For more information about using Ruby on Heroku, see these Dev Center articles:
+
+- [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
+- [Getting Started with Ruby on Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby)
+- [Heroku Ruby Support](https://devcenter.heroku.com/articles/ruby-support)
