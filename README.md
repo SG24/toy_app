@@ -1,14 +1,14 @@
 Toy App
 =========
 
-This is simple Ruby app using the Rails framework.
+This is simple Ruby app using the Rails framework, deployed on heroku.
 
 ## Routes
-* [home](http://localhost:3000)
-* [view users](http://localhost:3000/users)
-* [create user](http://localhost:3000/users/new)
-* [view microposts](http://localhost:3000/mircroposts)
-* [create mircropost](http://localhost:3000/microposts/new)
+* [Home](https://toy-app-rails-tutorial-michael.herokuapp.com/)
+* [View users]( https://toy-app-rails-tutorial-michael.herokuapp.com/users)
+* [Create user]( https://toy-app-rails-tutorial-michael.herokuapp.com/users/new)
+* [View microposts]( https://toy-app-rails-tutorial-michael.herokuapp.com/mircroposts)
+* [Create mircropost]( https://toy-app-rails-tutorial-michael.herokuapp.com/microposts/new)
 
 ## Running Locally
 ------------------
