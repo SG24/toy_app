@@ -3,6 +3,13 @@ Toy App
 
 This is simple Ruby app using the Rails framework.
 
+## Routes
+* [home](http://localhost:3000)
+* [view users](http://localhost:3000/users)
+* [create user](http://localhost:3000/users/new)
+* [view microposts](http://localhost:3000/mircroposts)
+* [create mircropost](http://localhost:3000/microposts/new)
+
 ## Running Locally
 ------------------
 
